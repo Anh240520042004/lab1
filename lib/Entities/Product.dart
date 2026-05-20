@@ -14,7 +14,7 @@ class Product {
   Product copyTo({String? name, String? image, double? price})
   {
     return Product(id: id, name: name ?? this.name, image: image ?? this.image, price: price ?? this.price);
-  }s
+  }
 
   // Factory map Json -> Product
   factory Product.fromJson(Map<String, dynamic> json) {
